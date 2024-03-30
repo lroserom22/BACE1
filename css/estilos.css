@@ -1,0 +1,61 @@
+.encabezado {
+    background-color: #FDFDBD;
+    padding: 2px;
+}
+
+.subtitulo {
+    background-color: #C8FFD4;
+    padding: 2px;
+}
+
+.piedepagina {
+    background-color: #FDFDBD;
+}
+ 
+nav{
+width: 100%;
+height: 35px;
+}
+
+/*organizar menu letras azules*/
+.menu{
+    height: 35px;
+    background: #B8E8FC;
+    position: relative;
+    } 
+
+/*organizar menu en horizontal*/ 
+.menu li{
+    float:left;
+    position:relative;
+    padding: 4px 0;
+    list-style: none;
+} 
+
+/*darformato a el texto del menu*/     
+.menu li a{
+color:#000;
+font-size:20px;
+padding: 10px 10px;
+text-decoration: none;
+} 
+
+/*ocultar el dropdown (sub-menus)*/    
+.menu li > ul{
+display:none;
+position:absolute;
+background:  #B8E8FC;
+padding: 10px;
+z-index: 2;
+}
+
+/* activar codigo submenu  */
+.menu li:hover > ul{
+display:block;
+width: 200px;
+top: 35px;
+}
+
+.contenido {
+    background-color: #B1AFFF;
+}

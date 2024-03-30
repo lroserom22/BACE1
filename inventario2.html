@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTUALIZACION</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="encabezado">
+        <hr>
+        </hr>
+        <h1>
+            <center>Component 2023 SAS</center>
+        </h1>
+    </header>
+    <header class="subtitulo">
+        <hr>
+        </hr>
+        <h2>
+            Computadores Partes e impresoras
+        </h2>
+        <hr>
+        </hr>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">INICIO</a>
+                <li><a href="#">ADMINISTRADOR</a>
+                    <ul>
+                        <li><a href="php/crear-bd.php">CREAR BASE DE DATOS</a></li>
+                        <li><a href="php/crear-tabla.php">CREAR TABLA</a></li>
+                        <li><a href="php/crearbackups.php">CREAR BACKUPS</a></li>
+                        <li><a href="php/generarpdf.php">CREAR PDF</a></li>
+                    </ul>
+                <li><a href="#">INVENTARIO</a>
+                    <ul>
+                        <li><a href="inventario1.html">INGRESO</a></li>
+                        <li><a href="inventario2.html">ACTUALIZACION</a></li>
+                        <li><a href="inventario3.html">ELIMINAR</a></li>
+                        <li><a href="inventario4.html">CONSULTA</a></li>
+                    </ul>
+                <li><a href="utilidades.html">UTILIDADES</a>
+        </ul>
+    </nav>
+    <main class="contenido">
+        <h2>
+            ACTUALIZACION DATOS DEL INVENTARIO
+        </h2>
+        <p>
+
+        </p>
+
+        <p>
+
+        </p>
+        <div class="container">
+            <h2>Ingresar Uno De Los Sigientes Datos</h2>
+            <form class="form-horizontal" action="php/actualizarinventario.php" role="form" method="POST">
+                <div class="form-group">
+                    <label>Codigo de producto:</label>
+                    <input type="text" class="form-control" name="code" placeholder="Ingrese Codigo Del Producto">
+                </div>
+                <button type="submit" name="submit" class="btn btn-primary">BUSCAR</button><br><br>
+                <br>
+            </form>
+        </div>
+    </main>
+    <footer class="piedepagina">
+        <p>
+            <hr>
+            </hr>
+            <center>correo: Component2023SAS@Component.com<br></center>
+            <center>fecha de actualización: 25 de Abril del 2023</center>
+            <hr>
+            </hr>
+        </p>
+    </footer>
+</body>
+
+</html>
